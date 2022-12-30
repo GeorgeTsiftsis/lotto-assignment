@@ -1,0 +1,85 @@
+.outline {
+  background-color: rgb(38, 38, 38);
+  width:500px;
+  padding: 1rem;
+}
+
+.systemChar {
+  color: white;
+  padding: 0 1rem;
+  font-size: 0.6rem;
+}
+
+.systemBtn {
+  padding: 0.6rem;
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+.activeSys {
+  padding: 0.6rem;
+  background-color: rgb(77, 77, 77);
+  color: white;
+  background-color: rgb(255, 80, 1);
+}
+
+.info {
+  background-color: rgb(255, 40, 40);
+  color: white;
+  height: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.systemDiv {
+  display: block;
+  padding: 1rem 0
+}
+
+.clrBtn {
+  color: white;
+  margin: 1rem;
+  padding:0.4rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  background-color: rgb(178, 32, 32);
+
+}
+
+.playBtn{
+border-color:rgb(38, 155, 55);   
+background-color: rgb(38, 155, 55);
+color: white;
+margin: 1rem;
+padding:0.4rem 2rem;
+border-radius: 3px;
+font-size: 1rem;
+} 
+
+.playBtn:disabled {
+  opacity: 0.5;
+}
+
+.btnContainer {
+    display:flex;
+    justify-content: space-between;
+}
+
+.cornerRight {
+    background-color: black;
+    display: flex;
+}
+
+.boardPrice {
+    color: white;
+}
+
+.totalOutput {
+  color: white;
+}
+
+.testBtn {
+  padding:0.5rem;
+  margin:0.5rem;
+}
