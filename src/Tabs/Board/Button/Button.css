@@ -1,0 +1,18 @@
+.wrapperGrid {
+    display: grid;
+    grid-template-columns: repeat(10, 0.5fr);
+    grid-auto-rows: minmax(10px, auto);
+}
+.innerbtns {
+    margin: 3px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border-radius: 999px;
+    border: none;
+  }
+
+  .active {
+    background-color: rgb(255, 80, 1);
+}
